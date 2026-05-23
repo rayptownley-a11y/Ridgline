@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f4f0;
+  --foreground: #1a1a18;
+  --card: #ffffff;
+  --card-foreground: #1a1a18;
+  --muted: #f9f8f5;
+  --muted-foreground: #888780;
+  --border: #e0ddd6;
+  --primary: #EA580C;
+  --primary-foreground: #ffffff;
+  --accent: #FEF3E9;
+  --accent-foreground: #C2410C;
+  --success: #16A34A;
+  --success-light: #DCFCE7;
+  --warning: #FEF9C3;
+  --warning-foreground: #854D0E;
+  --info: #EFF6FF;
+  --info-foreground: #1D4ED8;
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-light: var(--success-light);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --radius-lg: var(--radius);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
